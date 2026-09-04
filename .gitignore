@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ============================================================
+# Project-specific files
+# ============================================================
+
+# Generated SQLite database
+ResultDatabase.db
+ResultDatabase.db-journal
+
+# macOS system files
+.DS_Store
+._*
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
