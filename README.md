@@ -142,6 +142,8 @@ TestResult/
 └── StudentRate.csv
 ```
 
+The datasets used in this project are fictional assessment datasets created for the coursework and do not contain real student information.
+
 The preprocessing pipeline converts the assessment data into a SQLite database for subsequent analysis.
 
 ---
@@ -153,6 +155,7 @@ student-performance-analytics/
 │
 ├── README.md
 ├── .gitignore
+├── requirements.txt
 │
 ├── menu.ipynb
 ├── CWPreprocessing.py
@@ -220,8 +223,19 @@ Clone or download the repository and open a terminal in the project directory.
 
 ### 2. Install Python Dependencies
 
+Install the required Python packages using:
+
 ```bash
-pip install pandas numpy matplotlib ipywidgets
+pip install -r requirements.txt
+```
+
+The `requirements.txt` file contains:
+
+```text
+pandas
+numpy
+matplotlib
+ipywidgets
 ```
 
 Tkinter and SQLite are included with many standard Python installations, although Tkinter may need to be installed separately depending on the operating system.
