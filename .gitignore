@@ -222,8 +222,8 @@ __marimo__/
 # ============================================================
 
 # Generated SQLite database
-ResultDatabase.db
-ResultDatabase.db-journal
+Resultdatabase.db
+Resultdatabase.db-journal
 
 # macOS system files
 .DS_Store
